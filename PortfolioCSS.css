@@ -86,6 +86,7 @@ justify-content: space-around;
 	margin-right: 37%;
 	place-items:center;
 	background-color: #29291e;
+	font-size: 1rem;
 }
 .green{
 	color: green;
@@ -94,8 +95,6 @@ justify-content: space-around;
 .orange{
 	color: orange;
 	font-size: 2rem;	
-}
-.myskill{
 }
 #hi{
 	font-size: 3rem;
