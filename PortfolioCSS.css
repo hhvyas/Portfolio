@@ -1,5 +1,6 @@
-html{
+html, body{
 	font-family: 'Roboto', sans-serif;
+	margin: 0;
 }
 .bl{
 	background-color: black;
@@ -8,7 +9,7 @@ html{
 body{
  
   color: white;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.07rem;
 }
 .im{
 	 background-image: url("https://i.ibb.co/RNZ5hK8/back.jpg");
@@ -17,7 +18,7 @@ body{
 }
 
 .header{
-	font-size: 1.1em;
+	font-size: 1.1rem;
 	
 
 display: flex;
@@ -26,7 +27,7 @@ justify-content: space-around;
 }
 .Home{
 
-	padding: 1em;
+	padding: 1rem;
 	color: #ffffff;
 }
 .Home:hover{
@@ -34,7 +35,7 @@ justify-content: space-around;
 	background-color: orange;
 }
 .pro{
-	padding: 1em;
+	padding: 1rem;
 	color: #ffffff;
 }
 
@@ -43,12 +44,12 @@ justify-content: space-around;
 	background-color: orange;
 }
 .hardik{
-	padding-top: 0.5em;
-	font-size: 2em;
+	padding-top: 0.5rem;
+	font-size: 2rem;
 	color:#05eb1a;
 }
 .res{
-	padding: 1em;
+	padding: 1rem;
 	color: #ffffff;
 }
 
@@ -57,7 +58,7 @@ justify-content: space-around;
 	background-color: orange;
 }
 .cont{
-	padding: 1em;
+	padding: 1rem;
 	color: #ffffff;
 }
 
@@ -104,9 +105,17 @@ justify-content: space-around;
 }
 .sk{
 	margin-top: 30px;
-	display: grid;
-	place-items: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 	font-size: 2rem;
+}
+#hi{
+margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 3rem;	
 }
 .under{
 	text-decoration: none;
@@ -124,10 +133,9 @@ justify-content: space-around;
 .info{
 	margin-top: 3%;
 	font-size: 1.5rem;
-	display: grid;
-	place-items:center;
-
+	text-align: center;
 }
+
 .bor{
 	margin-left: 20%;
 	margin-right: 20%;
